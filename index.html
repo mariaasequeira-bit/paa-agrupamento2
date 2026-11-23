@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plano Anual de Atividades | Agrupamento</title>
+<style>
+:root{font:16px system-ui,sans-serif;color:#263344;background:#fff;--primary:#48586d;--accent:#f3d111;--line:#d8dfe7}*{box-sizing:border-box}body{margin:0}header{background:var(--primary);color:white;padding:1.2rem max(5vw,1rem);display:flex;align-items:center;gap:1rem}header span{display:block;color:#eef1f5;font-size:.85rem}main{width:min(1230px,92%);margin:2rem auto 4rem}.hero{background:#fffbea;border:1px solid var(--accent);padding:clamp(1.2rem,4vw,2.5rem);border-radius:22px;display:flex;justify-content:space-between;align-items:center;gap:1.2rem;flex-wrap:wrap}h1{font-size:clamp(1.8rem,4vw,3.1rem);line-height:1.06;margin:.35rem 0 .8rem;letter-spacing:-.045em}p{margin:.45rem 0;color:var(--primary)}.eyebrow{color:var(--primary);font-weight:750}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem;margin:1.25rem 0}.card,.panel{background:white;border:1px solid var(--line);border-radius:16px;padding:1.15rem}.card strong{display:block;font-size:1.65rem;margin-top:.3rem}.panel{margin:1rem 0}.row,.actions,.filters{display:flex;align-items:center;gap:.7rem;flex-wrap:wrap}.row{justify-content:space-between}h2{margin:.25rem 0 .65rem;letter-spacing:-.025em}button,input,select,textarea{font:inherit}button{cursor:pointer;border:1px solid #aeb9c7;border-radius:9px;padding:.55rem .85rem;background:white;color:var(--primary);font-weight:650}button:hover{background:#f0f3f7}.primary{background:var(--primary);border-color:var(--primary);color:#fff}.primary:hover{background:#364456}input,select,textarea{padding:.55rem .65rem;border:1px solid #aeb9c7;border-radius:8px;background:white;color:inherit;width:100%}label{font-size:.9rem;font-weight:650;display:grid;gap:.3rem}.filters{margin:.85rem 0;align-items:end}.filters label{flex:1;min-width:135px}.tablewrap{overflow:auto}table{border-collapse:collapse;width:100%;text-align:left;font-size:.94rem}th,td{padding:.75rem .55rem;border-bottom:1px solid var(--line);vertical-align:middle}th{background:#f1f4f8;font-size:.86rem}td small{display:block;margin-top:.25rem;color:var(--primary)}.badge{display:inline-block;white-space:nowrap;border-radius:30px;padding:.3rem .6rem;background:#edf1f6;color:var(--primary);font-size:.85rem}.badge[data-state="Aprovada"]{background:#e5edf7;color:#314765}.badge[data-state="Submetida"]{background:var(--accent);color:#263344}.badge[data-state="A rever"]{background:#f9e2db;color:#782c1d}dialog{width:min(720px,94vw);max-height:90vh;padding:1.35rem;border:1px solid var(--line);border-radius:18px;color:inherit}dialog::backdrop{background:#283547aa}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.85rem;margin:1rem 0}.wide{grid-column:1/-1}.notice{font-size:.88rem}#feedback{font-weight:650;color:var(--primary)}.danger{color:#8a2924}.empty{padding:2rem;text-align:center}details summary{cursor:pointer;font-weight:750}.catalog{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-top:1rem}ul{padding-left:1.25rem}li{margin:.35rem 0}.muted{font-size:.9rem;color:var(--primary)}#printPlan{display:none}@media print{body{background:white;color:black}body>header,main,dialog{display:none!important}#printPlan{display:block}article{break-inside:avoid;border-bottom:1px solid #aaa;padding:.5rem 0}h1{font-size:2rem}}
+label[hidden]{display:none}
+[hidden]{display:none!important}.tabs button[aria-pressed="true"]{background:var(--primary);color:white}.tabs{margin-top:.65rem}.calendar-shell{overflow:auto}.calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(96px,1fr));min-width:680px;border-top:1px solid var(--line);border-left:1px solid var(--line)}.weekday,.day{border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:.4rem}.weekday{font-weight:700;background:#f1f4f8;text-align:center}.day{min-height:5.5rem}.day strong{display:block;margin-bottom:.3rem}.day button{display:block;width:100%;text-align:left;font-size:.85rem;overflow-wrap:anywhere;margin:.22rem 0;padding:.25rem .35rem}.calendar-controls{margin:.75rem 0}.chart-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.2rem}.chart-row{display:grid;grid-template-columns:minmax(110px,1fr) 1fr 2rem;align-items:center;gap:.5rem;margin:.55rem 0}.bar{height:.75rem;background:#edf1f6;border-radius:20px;overflow:hidden}.bar span{height:100%;display:block;background:var(--primary)}.badge[data-state="Realizada"]{background:#e5edf7;color:#314765}.badge[data-state="Cancelada"]{background:#f9e2db;color:#782c1d}.attachment-list li{overflow-wrap:anywhere}.attachment-list button{margin-left:.4rem}.attachment-list a{color:var(--primary)}
+.calendar-location{display:block;margin-top:.15rem;font-size:.8rem}
+.header-logo{display:block;height:clamp(44px,6vw,66px);width:auto;max-width:100%;object-fit:contain;background:white;border-radius:9px;padding:.25rem}.header-title{flex:1;min-width:0;overflow-wrap:anywhere}@media(max-width:560px){body>header{gap:.7rem}}
+
+body>header{border-bottom:4px solid var(--accent)}
+.primary{background:var(--accent);border-color:var(--accent);color:#263344}
+.primary:hover{background:#e5c300;border-color:#e5c300}
+:where(button,input,select,textarea,summary,a):focus-visible{outline:2px solid var(--primary);outline-offset:3px}
+</style>
+</head>
+<body>
+<header>
+<img class="header-logo ae-logo" src="./logo-ae.png" width="214" height="122" alt="Agrupamento de Escolas D. João II, Caldas da Rainha">
+<div class="header-title"><strong>Agrupamento de Escolas D. João II</strong><span>Planeamento escolar</span></div>
+</header>
+<main>
+<section class="hero"><div><div id="yearLabel" class="eyebrow"></div><h1>Plano Anual de Atividades</h1><p>Reúna as propostas das escolas e dos departamentos num só plano.</p></div><button class="primary" id="new">+ Nova atividade</button></section>
+<div class="cards" id="cards" aria-label="Resumo do ano letivo"></div>
+<section class="panel">
+<div class="row"><h2>Atividades</h2><div class="actions"><button id="openImport">Importar CSV</button><button id="csv">Exportar CSV</button><button id="print">Imprimir plano aprovado</button><button id="report">Imprimir relatório / PDF</button></div></div>
+<div class="filters"><label>Pesquisar<input id="search" type="search" placeholder="Título, responsável, objetivos…"></label><label>Escola<select id="schoolFilter"></select></label><label>Departamento<select id="deptFilter"></select></label><label>Período<select id="periodFilter"></select></label><label>Aprovação<select id="statusFilter"></select></label><label>Execução<select id="executionFilter"></select></label><button type="button" id="clearFilters">Limpar filtros</button></div>
+<div class="actions tabs" role="group" aria-label="Visualização das atividades"><button data-view="listView" aria-pressed="true">Lista</button><button data-view="calendarView" aria-pressed="false">Calendário</button><button data-view="statsView" aria-pressed="false">Estatísticas</button></div>
+<div id="listView" class="tablewrap"><table><thead><tr><th scope="col">Atividade</th><th scope="col">Data</th><th scope="col">Período</th><th scope="col">Escolas</th><th scope="col">Departamento</th><th scope="col">Aprovação</th><th scope="col">Execução</th><th scope="col">Orçamento</th><th scope="col">Ação</th></tr></thead><tbody id="activities"></tbody></table></div>
+<div id="calendarView" hidden><div class="row calendar-controls"><h3 id="calendarTitle" aria-live="polite"></h3><div class="actions"><button id="prevMonth">Mês anterior</button><button id="nextMonth">Mês seguinte</button></div></div><div class="calendar-shell"><div class="calendar-grid" id="calendar"></div></div></div>
+<div id="statsView" hidden><p id="statsTotal"></p><div class="chart-grid" id="charts"></div></div>
+</section>
+<details class="panel"><summary>Configuração do agrupamento e do ano letivo</summary><form id="settings"><div class="grid"><label>Nome do agrupamento<input name="name" maxlength="150" required></label><label>Ano letivo<input name="year" pattern="[0-9]{4}/[0-9]{4}" placeholder="2026/2027" required></label></div><button>Guardar configuração</button></form>
+<div class="catalog"><section><h3>Escolas</h3><ul id="schools"></ul><form id="addSchool"><label>Nova escola<input name="name" required maxlength="120"></label><button>Adicionar escola</button></form></section><section><h3>Departamentos</h3><ul id="depts"></ul><form id="addDept"><label>Novo departamento<input name="name" required maxlength="120"></label><button>Adicionar departamento</button></form></section></div>
+</details>
+<p class="notice">Os registos ficam guardados neste navegador. O CSV exporta os resultados dos filtros atuais.</p><p id="feedback" role="status"></p>
+</main>
+<dialog id="editor" aria-labelledby="editorTitle"><form id="activity"><div class="row"><h2 id="editorTitle">Nova atividade</h2><button type="button" id="close">Fechar</button></div>
+<div class="grid">
+<label class="wide">Título<input name="title" maxlength="180" required></label>
+<label>Departamento responsável<select name="dept" required></select></label>
+<label id="subdeptLabel" hidden>Subdepartamento<select name="subdept" disabled></select></label>
+<label>Escolas envolvidas<select name="schools" required multiple size="3"></select></label>
+<label>Período letivo<select name="period"></select></label>
+<label>Visita de estudo<select name="studyVisit"><option value="Não">Não</option><option value="Sim">Sim</option></select></label>
+<label class="wide">Local da atividade<input name="location" maxlength="180" placeholder="Ex.: biblioteca da escola ou Museu José Malhoa"></label>
+<label>Data de início<input type="date" name="start" required></label>
+<label>Data de fim<input type="date" name="end"></label>
+<label>Responsável<input name="owner" maxlength="150" required></label>
+<label>Público-alvo<input name="audience" maxlength="180"></label>
+<label>Orçamento previsto (€)<input type="number" name="budget" min="0" max="100000000" step=".01"></label>
+<label>Aprovação<select name="status"></select></label>
+<label>Estado de execução<select name="execution"></select></label>
+<label class="wide">Objetivos e ligação ao Projeto Educativo<textarea name="objectives" rows="3"></textarea></label>
+<label class="wide">PEA (projeto educativo do agrupamento)<textarea name="pea" rows="3"></textarea></label>
+<label class="wide">Descrição e recursos<textarea name="description" rows="3"></textarea></label>
+<label class="wide">Observações da revisão<textarea name="review" rows="2"></textarea></label>
+<div class="wide"><label>Documentos anexos<input id="documents" type="file" multiple accept=".pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.odt,.ods,.odp,.txt,.csv,.png,.jpg,.jpeg"></label><p class="muted">Até 1 MB por ficheiro. Os anexos são guardados neste navegador ao guardar a atividade.</p><ul id="documentList" class="attachment-list"></ul></div>
+</div><div class="row"><button type="submit" class="primary">Guardar atividade</button><button type="button" id="remove" class="danger" hidden>Eliminar atividade</button></div><p id="editorFeedback" role="status"></p>
+</form></dialog>
+<dialog id="importDialog" aria-labelledby="importTitle">
+<div class="row"><h2 id="importTitle">Importar atividades em massa</h2><button id="closeImport" type="button">Fechar</button></div>
+<p id="importYear"></p>
+<p>Preencha as colunas Título, Escolas, Departamento, Início e Responsável. Use os nomes das escolas e dos departamentos apresentados na aplicação. Para indicar várias escolas, separe os nomes com vírgulas ou com |.</p>
+<p>Guarde como CSV UTF-8 e use datas no formato AAAA-MM-DD ou DD/MM/AAAA. A importação cria novas atividades.</p>
+<div class="grid"><label class="wide">Ficheiro CSV<input id="importFile" type="file" accept=".csv,text/csv"></label></div>
+<p id="importFeedback" role="status"></p><ul id="importErrors"></ul>
+<div class="actions"><button id="csvTemplate" type="button">Descarregar modelo CSV</button><button id="confirmImport" class="primary" type="button" disabled>Importar atividades</button></div>
+</dialog>
+<section id="printPlan" aria-label="Plano aprovado"></section>
+<script>
+"use strict";
+const byId = id => document.getElementById(id);
+const key = "paa-agrupamento-v1";
+const statuses = ["Rascunho", "Submetida", "A rever", "Aprovada", "Rejeitada"];
+const executionStates = ["Planificada", "Realizada", "Cancelada"];
+const periods = ["1.º período", "2.º período", "3.º período", "Vários períodos", "Ao longo do ano"];
+const unspecifiedPeriod = "Por definir";
+const departmentStructure = new Map([
+  ["Departamento da Educação Pré-Escolar", []],
+  ["Departamento do 1.º Ciclo", []],
+  ["Departamento de Matemática e Ciências Experimentais", ["Matemática", "Ciências Naturais", "Física e Química", "Informática"]],
+  ["Departamento de Ciências Sociais e Humanas", ["Português", "EMRC", "História", "História e Geografia de Portugal", "Geografia"]],
+  ["Departamento de Expressões", ["Educação Visual", "Educação Tecnológica", "Educação Musical", "Educação Física", "Educação Especial"]],
+  ["Departamento de Línguas", ["Português", "Inglês", "Francês", "Espanhol", "Alemão"]]
+]);
+const defaultDepartments = [...departmentStructure.keys()];
+const legacyNames = new Map([
+  ["Pré-Escolar", defaultDepartments[0]], ["1.º Ciclo", defaultDepartments[1]]
+]);
+const legacyCycles = ["2.º Ciclo", "3.º Ciclo", "Secundário"];
+const schoolGroups = new Map([
+  ["2.º e 3.º Ciclo", ["Escola Básica D. João II - SEDE"]],
+  ["Pré-Escolar e 1.º Ciclo", [
+    "Escola Básica do Avenal", "Escola Básica do Campo", "Escola Básica do Coto",
+    "Escola Básica da Encosta do Sol", "Escola Básica Nossa Sra. do Pópulo",
+    "Escola Básica de Salir de Matos", "Escola Básica de Salir do Porto",
+    "Escola Básica da Lagoa Parceira", "Escola Básica do Reguengo da Parada",
+    "Escola Básica do Chão da Parada", "Escola Básica de Tornada",
+    "Jardim de Infância do Campo", "Jardim de Infância Casal Celão", "Jardim de Infância do Coto"
+  ]]
+]);
+const defaultSchools = [...schoolGroups.values()].flat();
+const now = new Date();
+const firstYear = now.getFullYear() - Number(now.getMonth() < 8);
+const initial = {
+  name:"Agrupamento de escolas", year:firstYear + "/" + (firstYear + 1),
+  schools:defaultSchools, depts:defaultDepartments, activities:[]
+};
+let data = initial;
+try { data = JSON.parse(localStorage.getItem(key)) || initial; } catch {}
+const activities = data.activities.map(activity => ({
+  ...activity, dept: legacyNames.get(activity.dept) ?? activity.dept
+}));
+const customDepartments = data.depts.filter(name => !legacyNames.has(name)
+  && (!legacyCycles.includes(name) || activities.some(activity => activity.dept === name)));
+data = {...data, activities, schools:[...new Set([...defaultSchools, ...data.schools])], depts:[...new Set([...defaultDepartments, ...customDepartments])]};
+const filterIds = ["search", "schoolFilter", "deptFilter", "periodFilter", "statusFilter", "executionFilter"];
+const editor = byId("editor");
+const form = byId("activity");
+const settings = byId("settings");
+const money = new Intl.NumberFormat("pt-PT",{ style:"currency", currency:"EUR" });
+let editing = null;
+let month = new Date(now.getFullYear(),now.getMonth(),1);
+let calendarYear = "";
+let attachments = [];
+let readingDocuments = false;
+const submit = form.querySelector('button[type="submit"]');
+function executionLabel(activity) { return activity.execution || executionStates[0]; }
+const el = (tag, content, cls) => {
+  const node = document.createElement(tag);
+  if (content !== undefined) node.textContent = content;
+  if (cls) node.className = cls;
+  return node;
+};
+function save(next, message, feedback = byId("feedback")) {
+  try { localStorage.setItem(key, JSON.stringify(next)); }
+  catch { feedback.textContent = "Não foi possível guardar os dados neste navegador. Se o espaço de armazenamento estiver cheio, remova alguns anexos e tente novamente."; return false; }
+  data = next;
+  feedback.textContent = message;
+  render();
+  return true;
+}
+function options(select, values, placeholder) {
+  const previous = select.value;
+  select.replaceChildren();
+  if (placeholder !== undefined) select.add(new Option(placeholder,""));
+  for (const value of values) select.add(new Option(value,value));
+  if ([...select.options].some(option => option.value === previous)) select.value = previous;
+}
+function schoolOptions(select, placeholder) {
+  const previous = select.value;
+  select.replaceChildren();
+  if (placeholder !== undefined) select.add(new Option(placeholder,""));
+  for (const [label,names] of schoolGroups) {
+    const group = el("optgroup");
+    group.label = label;
+    group.append(...names.map(name => new Option(name,name)));
+    select.append(group);
+  }
+  for (const name of data.schools.filter(name => !defaultSchools.includes(name))) {
+    select.add(new Option(name,name));
+  }
+  if (!select.multiple && [...select.options].some(option => option.value === previous)) select.value = previous;
+}
+function chronological(a,b) { return a.start.localeCompare(b.start) || a.title.localeCompare(b.title,"pt"); }
+function yearActivities() { return data.activities.filter(a => a.year === data.year).sort(chronological); }
+function searchable(text) {
+  return text.toLocaleLowerCase("pt-PT").normalize("NFD").replace(/\p{M}/gu,"");
+}
+function periodLabel(activity) { return activity.period || unspecifiedPeriod; }
+function shown() {
+  const query = searchable(byId("search").value.trim());
+  const school = byId("schoolFilter").value;
+  const dept = byId("deptFilter").value;
+  const status = byId("statusFilter").value;
+  const period = byId("periodFilter").value;
+  const execution = byId("executionFilter").value;
+  return yearActivities().filter(a => (!school || a.schools.includes(school)) && (!dept || a.dept === dept)
+    && (!status || a.status === status) && (!period || periodLabel(a) === period)
+    && (!execution || executionLabel(a) === execution)
+    && [a.title,a.owner,a.dept,a.subdept,...a.schools,a.audience,a.objectives,a.pea,a.description,a.review,a.location]
+      .some(value => searchable(value ?? "").includes(query)));
+}
+function dateLabel(value) { return value.split("-").reverse().join("/"); }
+function range(a) { return a.end && a.end !== a.start ? dateLabel(a.start) + " – " + dateLabel(a.end) : dateLabel(a.start); }
+function renderTable() {
+  const body = byId("activities");
+  body.replaceChildren();
+  const rows = shown();
+  if (!rows.length) {
+    const row = body.insertRow();
+    const cell = row.insertCell();
+    cell.colSpan = 9;
+    cell.className = "empty";
+    cell.textContent = yearActivities().length ? "Nenhuma atividade corresponde aos filtros." : "Ainda não há atividades para este ano letivo.";
+  }
+  for (const a of rows) {
+    const row = body.insertRow();
+    const summary = row.insertCell();
+    summary.append(el("strong",a.title),el("small",a.owner));
+    if (a.studyVisit === "Sim") summary.append(el("small","Visita de estudo"));
+    if (a.location) summary.append(el("small","Local — " + a.location));
+    row.insertCell().textContent = range(a);
+    row.insertCell().textContent = periodLabel(a);
+    row.insertCell().textContent = a.schools.join(", ");
+    const department = row.insertCell();
+    department.textContent = a.dept;
+    if (a.subdept) department.append(el("small",a.subdept));
+    const badge = el("span",a.status,"badge");
+    badge.dataset.state = a.status;
+    row.insertCell().append(badge);
+    const execution = el("span",executionLabel(a),"badge");
+    execution.dataset.state = executionLabel(a);
+    row.insertCell().append(execution);
+    row.insertCell().textContent = money.format(a.budget);
+    const button = el("button","Editar");
+    button.setAttribute("aria-label","Editar " + a.title);
+    button.onclick = () => openEditor(a);
+    row.insertCell().append(button);
+  }
+}
+function calendarDate(year,monthIndex,day) {
+  return [String(year).padStart(4,"0"),String(monthIndex + 1).padStart(2,"0"),String(day).padStart(2,"0")].join("-");
+}
+function renderCalendar(rows) {
+  const year = month.getFullYear();
+  const monthIndex = month.getMonth();
+  byId("calendarTitle").textContent = month.toLocaleDateString("pt-PT",{month:"long",year:"numeric"});
+  const grid = byId("calendar");
+  grid.replaceChildren(...["Seg","Ter","Qua","Qui","Sex","Sáb","Dom"].map(day => el("div",day,"weekday")));
+  const offset = (month.getDay() + 6) % 7;
+  const lastDay = new Date(year,monthIndex + 1,0).getDate();
+  const cells = Math.ceil((offset + lastDay) / 7) * 7;
+  for (let index = 0; index < cells; index++) {
+    const day = index - offset + 1;
+    const cell = el("div",undefined,"day");
+    if (day >= 1 && day <= lastDay) {
+      const date = calendarDate(year,monthIndex,day);
+      cell.append(el("strong",day));
+      for (const activity of rows.filter(item => item.start <= date && (item.end || item.start) >= date)) {
+        const button = el("button",activity.title);
+        button.setAttribute("aria-label",activity.title + " — " + dateLabel(date) + (activity.location ? " — " + activity.location : ""));
+        if (activity.location) button.append(el("small",activity.location,"calendar-location"));
+        button.onclick = () => openEditor(activity);
+        cell.append(button);
+      }
+    }
+    grid.append(cell);
+  }
+}
+function chart(title,labels,rows,classify) {
+  const section = el("section");
+  section.append(el("h3",title));
+  for (const label of labels) {
+    const count = rows.filter(activity => classify(activity) === label).length;
+    const row = el("div",undefined,"chart-row");
+    const bar = el("div",undefined,"bar");
+    bar.setAttribute("aria-hidden","true");
+    const fill = el("span");
+    fill.style.width = (rows.length ? count / rows.length * 100 : 0) + "%";
+    bar.append(fill);
+    row.append(el("span",label),bar,el("strong",count));
+    section.append(row);
+  }
+  return section;
+}
+function renderViews() {
+  renderTable();
+  const rows = shown();
+  if (!byId("calendarView").hidden) renderCalendar(rows);
+  if (!byId("statsView").hidden) {
+    const total = rows.reduce((sum,a) => sum + a.budget,0);
+    byId("statsTotal").textContent = rows.length + " atividades nos filtros atuais · Orçamento previsto " + money.format(total);
+    byId("charts").replaceChildren(chart("Estado de execução",executionStates,rows,executionLabel),
+      chart("Período letivo",[...periods,unspecifiedPeriod],rows,periodLabel));
+  }
+  byId("report").disabled = !rows.length;
+}
+for (const button of document.querySelectorAll("[data-view]")) {
+  button.onclick = () => {
+    for (const tab of document.querySelectorAll("[data-view]")) {
+      const active = tab === button;
+      tab.setAttribute("aria-pressed",String(active));
+      byId(tab.dataset.view).hidden = !active;
+    }
+    renderViews();
+  };
+}
+for (const [id,direction] of [["prevMonth",-1],["nextMonth",1]]) {
+  byId(id).onclick = () => {
+    month = new Date(month.getFullYear(),month.getMonth() + direction,1);
+    renderCalendar(shown());
+  };
+}
+function render() {
+  byId("yearLabel").textContent = "Ano letivo " + data.year;
+  settings.elements.name.value = data.name;
+  settings.elements.year.value = data.year;
+  schoolOptions(byId("schoolFilter"),"Todas as escolas");
+  options(byId("deptFilter"),data.depts,"Todos os departamentos");
+  options(byId("periodFilter"),[...periods,unspecifiedPeriod],"Todos os períodos");
+  options(byId("statusFilter"),statuses,"Todos os estados");
+  options(byId("executionFilter"),executionStates,"Todos os estados");
+  if (calendarYear !== data.year) {
+    calendarYear = data.year;
+    const startYear = Number(data.year.split("/")[0]);
+    month = startYear === firstYear ? new Date(now.getFullYear(),now.getMonth(),1) : new Date(startYear,8,1);
+  }
+  for (const key of ["schools","depts"]) {
+    const items = data[key].map(name => {
+      const item = el("li",name);
+      const subdepartments = key === "depts" ? departmentStructure.get(name) : null;
+      if (subdepartments?.length) {
+        const list = el("ul");
+        list.append(...subdepartments.map(subdept => el("li",subdept)));
+        item.append(list);
+      }
+      return item;
+    });
+    byId(key).replaceChildren(...(items.length ? items : [el("li","Por configurar","muted")]));
+  }
+  const rows = yearActivities();
+  const approved = rows.filter(a => a.status === "Aprovada");
+  byId("cards").replaceChildren(...[
+    ["Atividades no ano", rows.length],
+    ["Em apreciação", rows.filter(a => ["Submetida","A rever"].includes(a.status)).length],
+    ["Aprovadas", approved.length],
+    ["Orçamento aprovado",money.format(approved.reduce((sum,a) => sum + a.budget,0))]
+  ].map(([label,value]) => {
+    const card = el("div",undefined,"card");
+    card.append(el("span",label),el("strong",value));
+    return card;
+  }));
+  byId("print").disabled = !approved.length;
+  renderViews();
+}
+function updateSubdepartments(value = "") {
+  const label = byId("subdeptLabel");
+  const select = form.elements.subdept;
+  const choices = departmentStructure.get(form.elements.dept.value) ?? [];
+  select.disabled = !choices.length;
+  label.hidden = !choices.length;
+  options(select,choices,"Selecione o subdepartamento");
+  select.value = choices.includes(value) ? value : "";
+}
+form.elements.dept.addEventListener("change",() => updateSubdepartments());
+function openEditor(a) {
+  if (!data.schools.length || !data.depts.length) {
+    const setup = settings.closest("details");
+    setup.open = true;
+    setup.scrollIntoView({block:"center"});
+    byId("feedback").textContent = "Adicione pelo menos uma escola e um departamento antes de registar atividades.";
+    byId(!data.schools.length ? "addSchool" : "addDept").elements.name.focus();
+    return;
+  }
+  editing = a?.id ?? null;
+  form.reset();
+  byId("editorFeedback").textContent = "";
+  byId("editorTitle").textContent = a ? "Editar atividade" : "Nova atividade";
+  byId("remove").hidden = !a;
+  options(form.elements.dept,data.depts,"Selecione o departamento");
+  form.elements.dept.value = "";
+  schoolOptions(form.elements.schools);
+  options(form.elements.period,periods,unspecifiedPeriod);
+  form.elements.period.value = a?.period ?? "";
+  options(form.elements.status,statuses);
+  options(form.elements.execution,executionStates);
+  form.elements.execution.value = a ? executionLabel(a) : executionStates[0];
+  attachments = [...(a?.attachments ?? [])];
+  renderAttachments();
+  form.elements.status.value = statuses[0];
+  if (a) {
+    for (const name of ["title","dept","start","end","owner","audience","budget","status","objectives","pea","description","review","location"]) form.elements[name].value = a[name] ?? "";
+    for (const option of form.elements.schools.options) option.selected = a.schools.includes(option.value);
+  }
+  form.elements.studyVisit.value = a?.studyVisit ?? "Não";
+  updateSubdepartments(a?.subdept);
+  editor.showModal();
+}
+function renderAttachments() {
+  const list = byId("documentList");
+  list.replaceChildren();
+  for (const [index,attachment] of attachments.entries()) {
+    const item = el("li");
+    const download = el("a",attachment.name);
+    download.href = attachment.content;
+    download.download = attachment.name;
+    const remove = el("button","Remover");
+    remove.type = "button";
+    remove.setAttribute("aria-label","Remover " + attachment.name);
+    remove.onclick = () => {
+      attachments.splice(index,1);
+      renderAttachments();
+    };
+    item.append(download,remove);
+    list.append(item);
+  }
+}
+function readDocument(file) {
+  return new Promise((resolve,reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve({name:file.name,content:reader.result.replace(/^data:[^,]*,/, "data:application/octet-stream;base64,")});
+    reader.onerror = () => reject(reader.error);
+    reader.readAsDataURL(file);
+  });
+}
+byId("documents").onchange = async event => {
+  const input = event.currentTarget;
+  const files = [...input.files];
+  input.value = "";
+  if (!files.length) return;
+  const feedback = byId("editorFeedback");
+  if (files.some(file => file.size > 1000000)) {
+    feedback.textContent = "Cada anexo pode ter, no máximo, 1 MB.";
+    return;
+  }
+  readingDocuments = true;
+  for (const id of ["documents","close","remove"]) byId(id).disabled = true;
+  submit.disabled = true;
+  try {
+    attachments.push(...await Promise.all(files.map(readDocument)));
+    renderAttachments();
+    feedback.textContent = "Os documentos serão guardados com a atividade.";
+  } catch {
+    feedback.textContent = "Não foi possível ler os documentos selecionados.";
+  } finally {
+    readingDocuments = false;
+    for (const id of ["documents","close","remove"]) byId(id).disabled = false;
+    submit.disabled = false;
+  }
+};
+editor.addEventListener("cancel",event => {
+  if (readingDocuments) event.preventDefault();
+});
+form.onsubmit = event => {
+  event.preventDefault();
+  if (readingDocuments) return;
+  const fields = new FormData(form);
+  const a = Object.fromEntries([...fields].map(([k,v]) => [k,v.trim()]));
+  a.schools = fields.getAll("schools");
+  a.subdept = a.subdept ?? "";
+  a.attachments = attachments;
+  a.budget = Number(a.budget);
+  a.year = data.year;
+  a.id = editing ?? crypto.randomUUID();
+  const feedback = byId("editorFeedback");
+  if (!a.title || !a.owner) { feedback.textContent = "Preencha o título e o responsável."; return; }
+  if (a.end && a.end < a.start) { feedback.textContent = "A data de fim deve ser igual ou posterior à data de início."; return; }
+  const activities = editing ? data.activities.map(item => item.id === editing ? a : item) : [...data.activities,a];
+  if (save({...data,activities},"Atividade guardada.",feedback)) {
+    editor.close();
+    byId("feedback").textContent = "Atividade guardada.";
+  }
+};
+byId("new").onclick = () => openEditor();
+byId("close").onclick = () => editor.close();
+byId("remove").onclick = () => {
+  if (confirm("Eliminar esta atividade do plano?") &&
+      save({...data,activities:data.activities.filter(a => a.id !== editing)},"Atividade eliminada.",byId("editorFeedback"))) {
+    editor.close();
+    byId("feedback").textContent = "Atividade eliminada.";
+  }
+};
+settings.onsubmit = event => {
+  event.preventDefault();
+  const name = settings.elements.name.value.trim();
+  const year = settings.elements.year.value;
+  const [start,end] = year.split("/").map(Number);
+  if (!name || end !== start + 1) { byId("feedback").textContent = "Introduza o nome do agrupamento e um ano letivo válido, como 2026/2027."; return; }
+  save({...data,name,year},"Configuração guardada.");
+};
+for (const [id,key] of [["addSchool","schools"],["addDept","depts"]]) {
+  const add = byId(id);
+  add.onsubmit = event => {
+    event.preventDefault();
+    const name = add.elements.name.value.trim();
+    if (!name || data[key].some(item => item.localeCompare(name,"pt",{sensitivity:"accent"}) === 0)) {
+      byId("feedback").textContent = "Introduza um nome novo.";
+      return;
+    }
+    if (save({...data,[key]:[...data[key],name]},"Registo adicionado.")) add.reset();
+  };
+}
+for (const id of filterIds) byId(id).addEventListener("input",renderViews);
+byId("clearFilters").onclick = () => {
+  for (const id of filterIds) byId(id).value = "";
+  renderViews();
+  byId("search").focus();
+};
+function csvCell(value) {
+  let text = String(value);
+  if (/^[\s]*[=+@-]|^[\r\n\t]/.test(text)) text = "'" + text;
+  return '"' + text.replaceAll('"','""') + '"';
+}
+const csvColumns = ["Ano letivo","Título","Escolas","Departamento","Subdepartamento","Período","Início","Fim","Responsável","Público-alvo","Aprovação","Execução","Orçamento (€)","Objetivos","PEA (projeto educativo do agrupamento)","Descrição","Observações","Local da atividade","Visita de estudo"];
+function downloadCsv(filename, rows) {
+  const url = URL.createObjectURL(new Blob(["\uFEFF" + rows.map(row => row.map(csvCell).join(";")).join("\r\n")],{type:"text/csv;charset=utf-8"}));
+  const link = el("a");
+  link.href = url;
+  link.download = filename;
+  link.click();
+  setTimeout(() => URL.revokeObjectURL(url),1000);
+}
+byId("csv").onclick = () => downloadCsv("PAA-" + data.year.replace("/","-") + ".csv",[
+  csvColumns, ...shown().map(a => [a.year,a.title,a.schools.join(", "),a.dept,a.subdept ?? "",periodLabel(a),a.start,a.end,a.owner,a.audience,a.status,executionLabel(a),a.budget.toFixed(2).replace(".",","),a.objectives,a.pea ?? "",a.description,a.review,a.location ?? "",a.studyVisit ?? "Não"])
+]);
+byId("csvTemplate").onclick = () => downloadCsv("PAA-modelo-importacao.csv",[csvColumns]);
+
+function parseCsv(text, separator) {
+  const records = [];
+  let cells = [], value = "", state = "start", line = 1, recordLine = 1;
+  text = text.replace(/^\uFEFF/,"").replace(/\r\n?/g,"\n");
+  function closeCell() {
+    cells.push(value.trim());
+    value = "";
+    state = "start";
+  }
+  function closeRecord() {
+    closeCell();
+    if (cells.some(Boolean)) records.push({line:recordLine,cells});
+    cells = [];
+    recordLine = line + 1;
+  }
+  for (let i = 0; i < text.length; i++) {
+    const char = text[i];
+    if (state === "quoted") {
+      if (char === '"' && text[i + 1] === '"') { value += '"'; i++; }
+      else if (char === '"') state = "closed";
+      else value += char;
+    } else if (char === separator) closeCell();
+    else if (char === "\n") closeRecord();
+    else if (state === "start" && char === '"') state = "quoted";
+    else if (state === "closed" && /[ \t]/.test(char)) { /* Ignore padding after quotes. */ }
+    else if (state === "closed" || char === '"') throw new Error("Linha " + line + ": aspas inválidas no CSV.");
+    else { state = "plain"; value += char; }
+    if (char === "\n") line++;
+  }
+  if (state === "quoted") throw new Error("Linha " + recordLine + ": campo com aspas por fechar.");
+  closeRecord();
+  return records;
+}
+function importDate(value) {
+  const local = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/.exec(value);
+  const iso = local ? calendarDate(Number(local[3]),Number(local[2]) - 1,Number(local[1])) : value;
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(iso)) return "";
+  const parsed = new Date(iso + "T00:00:00Z");
+  return !Number.isNaN(parsed.getTime()) && parsed.toISOString().slice(0,10) === iso ? iso : "";
+}
+function matchName(value, choices) {
+  return choices.find(choice => searchable(choice) === searchable(value));
+}
+function readImport(text) {
+  // The first record contains column names without embedded line breaks.
+  const header = text.replace(/^\uFEFF/,"").trimStart().split(/\r?\n|\r/,1)[0];
+  const records = parseCsv(text,header.includes(";") ? ";" : ",");
+  if (!records.length) throw new Error("O ficheiro está vazio.");
+  const columns = records[0].cells.map(searchable);
+  const extraNames = new Map([[2,["escola"]],[6,["data de início"]],[7,["data de fim"]],
+    [10,["estado","estado de aprovação"]],[11,["estado de execução"]],[12,["orçamento"]],[14,["pea"]],[17,["local"]]]);
+  const indexes = csvColumns.map((name,index) => columns.findIndex(value => [name,...(extraNames.get(index) ?? [])].map(searchable).includes(value)));
+  const missing = [1,2,3,6,8].filter(index => indexes[index] === -1);
+  if (missing.length) throw new Error("Colunas obrigatórias em falta: " + missing.map(index => csvColumns[index]).join(", ") + ".");
+  if (!records[1]) throw new Error("O ficheiro contém apenas os cabeçalhos.");
+  const rows = [], errors = [];
+  for (const record of records.slice(1)) {
+    if (record.cells.length !== columns.length) {
+      errors.push("Linha " + record.line + ": o número de campos difere do cabeçalho.");
+      continue;
+    }
+    const [year,title,schoolNames,department,subdepartment,period,startText,endText,owner,audience,status,execution,budgetText,objectives,pea,description,review,location,studyVisit] = indexes.map(index => record.cells[index] ?? "");
+    const issues = [];
+    const visit = studyVisit ? matchName(studyVisit,["Sim","Não"]) : "Não";
+    if (!visit) issues.push("indique Sim ou Não em Visita de estudo");
+    if (year && year !== data.year) issues.push("ano letivo diferente do selecionado");
+    if (!title || !owner) issues.push("preencha o título e o responsável");
+    const dept = matchName(department,data.depts) ?? legacyNames.get(department);
+    if (!dept) issues.push("departamento desconhecido");
+    const subdept = matchName(subdepartment,departmentStructure.get(dept) ?? []);
+    if (subdepartment && !subdept) issues.push("subdepartamento inválido para este departamento");
+    const names = matchName(schoolNames,data.schools) ? [schoolNames] : schoolNames.split(/[,|]/).map(name => name.trim());
+    const schools = names.map(name => matchName(name,data.schools));
+    if (schools.some(name => !name)) issues.push("indique escolas válidas");
+    const start = importDate(startText);
+    const end = importDate(endText);
+    if (!start || (endText && (!end || end < start))) issues.push("datas inválidas");
+    const budget = Number(budgetText.replace(",","."));
+    if ((budgetText && !/^\d+(?:[.,]\d{1,2})?$/.test(budgetText)) || budget > 100000000) issues.push("orçamento inválido");
+    const approval = status ? matchName(status,statuses) : statuses[0];
+    const progress = execution ? matchName(execution,executionStates) : executionStates[0];
+    const schoolPeriod = period && searchable(period) !== searchable(unspecifiedPeriod) ? matchName(period,periods) : "";
+    if (!approval || !progress || schoolPeriod === undefined) issues.push("estado ou período inválido");
+    if (issues.length) errors.push("Linha " + record.line + ": " + issues.join(", ") + ".");
+    else rows.push({year:data.year,title,schools:[...new Set(schools)],dept,subdept:subdept ?? "",period:schoolPeriod,start,end,
+      owner,audience,status:approval,execution:progress,budget,objectives,pea,description,review,location,studyVisit:visit,attachments:[]});
+  }
+  return {rows,errors};
+}
+const importDialog = byId("importDialog");
+const importFile = byId("importFile");
+const importFeedback = byId("importFeedback");
+const confirmImport = byId("confirmImport");
+let importRows = [];
+let importSelection = 0;
+byId("openImport").onclick = () => {
+  importSelection++;
+  importRows = [];
+  importFile.value = "";
+  confirmImport.disabled = true;
+  importFeedback.textContent = "";
+  byId("importErrors").replaceChildren();
+  byId("importYear").textContent = "Ano letivo de destino: " + data.year;
+  importDialog.showModal();
+};
+byId("closeImport").onclick = () => importDialog.close();
+importDialog.addEventListener("close",() => { importSelection++; });
+importFile.onchange = async () => {
+  const selection = ++importSelection;
+  const file = importFile.files[0];
+  importRows = [];
+  confirmImport.disabled = true;
+  importFeedback.textContent = "";
+  byId("importErrors").replaceChildren();
+  if (!file) return;
+  try {
+    const text = await file.text();
+    if (selection !== importSelection) return;
+    const {rows,errors} = readImport(text);
+    if (errors.length) {
+      importFeedback.textContent = errors.length + " linha(s) com erros. Corrija o ficheiro e volte a selecioná-lo.";
+      byId("importErrors").replaceChildren(...errors.slice(0,30).map(error => el("li",error)));
+      return;
+    }
+    importRows = rows;
+    confirmImport.disabled = false;
+    importFeedback.textContent = rows.length + " atividade(s) prontas para importar.";
+  } catch (error) {
+    if (selection === importSelection) importFeedback.textContent = error.message;
+  }
+};
+confirmImport.onclick = () => {
+  if (!importRows.length) return;
+  const activities = [...data.activities,...importRows.map(row => ({...row,id:crypto.randomUUID()}))];
+  if (save({...data,activities},"Importação concluída.",importFeedback)) {
+    byId("feedback").textContent = importRows.length + " atividade(s) importadas.";
+    importRows = [];
+    importDialog.close();
+  }
+};
+function printActivities(rows,title,budgetLabel) {
+  const list = byId("printPlan");
+  list.replaceChildren(el("h1",title),el("p",data.name + " · " + data.year),
+    el("p",budgetLabel + " " + money.format(rows.reduce((sum,a) => sum + a.budget,0))));
+  for (const a of rows) {
+    const article = el("article");
+    article.append(el("h2",a.title),el("p",range(a) + " · " + periodLabel(a) + " · " + a.schools.join(", ")),
+      el("p",[a.dept,a.subdept,a.owner,money.format(a.budget)].filter(Boolean).join(" · ")));
+    article.append(el("p",a.status + " · " + executionLabel(a)));
+    for (const [label,value] of [["Visita de estudo",a.studyVisit ?? "Não"],["Local da atividade",a.location],["Público-alvo",a.audience],["Objetivos",a.objectives],["PEA (projeto educativo do agrupamento)",a.pea],["Descrição",a.description]]) {
+      if (value) article.append(el("p",label + " — " + value));
+    }
+    list.append(article);
+  }
+  window.print();
+}
+byId("print").onclick = () => printActivities(yearActivities().filter(a => a.status === "Aprovada"),"Plano Anual de Atividades","Orçamento total aprovado");
+byId("report").onclick = () => printActivities(shown(),"Relatório de atividades","Orçamento previsto");
+render();
+</script>
+</body>
+</html>
